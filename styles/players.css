@@ -1,0 +1,152 @@
+body {
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	min-width: 600px;
+	max-width: 900px;
+	background-color: #041530;
+}
+
+.white-text {
+	color: white;
+}
+
+/* background image stuff */
+.fixed-bg {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	width:100%;
+	min-width: 600px;
+	max-width: 900px;
+	background-repeat: no-repeat;
+}
+
+.trumpetsInDomePic {
+	background-image: url(../media/bandDanceSilly2016.jpg);
+	height: 400px;
+	min-height: 120px;
+}
+
+#notreDameTrumpetsTitle {
+	text-shadow: 1px 1px 8px #041530;
+	font-size:58px;
+	position: absolute;
+	min-width: 600px;
+	max-width: 900px;
+	display: table;
+	text-align:center;
+	width: 100%;
+	top: 280px;
+} 
+
+#carryingTheMelody {
+	color: #cfb53b;
+	text-shadow: 2px 2px 20px #041530;
+	font-size: 24px;
+	display: table;
+	position: absolute;
+	min-width: 600px;
+	max-width: 900px;
+	text-align: center;
+	font-style: italic;
+	width: 100%;
+	top: 370px;
+}
+
+/* main divs */
+
+#mainPageContent1 {
+	box-shadow: 0px 0px 5px black;
+	background-color: #041530;
+	color: white;
+	width: 100%;
+	min-width: 600px;
+	max-width: 900px;
+	position: absolute; 
+	top: 450px;
+}
+
+
+/* roster table */
+
+#roster {
+	padding: 40px;
+	width: 100%;
+}
+
+#roster td {
+	width: 25%;
+}
+
+.name {
+	padding: 10px;
+}
+
+.major {
+	padding: 10px;
+}
+
+.hometown {
+	padding: 10px;
+}
+
+.dorm {
+	padding: 10px;
+}
+
+.title {
+	width: 100%;
+	font-size: 32;
+	text-align: center;
+	padding-top: 20px;
+	color: #ADB3CD;
+}
+
+.empty {
+	height: 30px;
+}
+
+.year {
+	color: #cfb53b;
+	font-size: 24px;
+	padding: 10px;
+}
+
+.person:nth-child(even) {
+	background-color: #1d2c44;
+	color: #ADB3CD;
+	font-size: 18px;
+}
+
+.person:nth-child(odd) {
+	background-color: #364359;
+	color: #ADB3CD;
+	font-size: 18px;
+}
+
+/* bottom of page */
+
+#followUs {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 32px;
+	text-align: center;	
+	vertical-align: middle;
+	color: white;
+}
+
+.socialMediaIcon {
+	width: 40px;
+	height: 40px;
+	padding: 0px 10px 20px 10px;
+}

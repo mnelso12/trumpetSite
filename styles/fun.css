@@ -1,0 +1,118 @@
+body {
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	min-width: 600px;
+	max-width: 900px;
+	background-color: #041530;
+}
+
+/* background image stuff */
+.fixed-bg {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	width:100%;
+	min-width: 600px;
+	max-width: 900px;
+	background-repeat: no-repeat;
+}
+
+.trumpetsInDomePic {
+	background-image: url(../media/lauraHayride.jpg);
+	height: 400px;
+	min-height: 120px;
+}
+
+#notreDameTrumpetsTitle {
+	text-shadow: 1px 1px 8px #041530;
+	font-size:58px;
+	color: white;
+	position: absolute;
+	min-width: 600px;
+	max-width: 900px;
+	display: table;
+	text-align:center;
+	width: 100%;
+	top: 280px;
+} 
+
+#carryingTheMelody {
+	color: #cfb53b;
+	text-shadow: 2px 2px 20px #041530;
+	font-size: 24px;
+	display: table;
+	position: absolute;
+	min-width: 600px;
+	max-width: 900px;
+	text-align: center;
+	font-style: italic;
+	width: 100%;
+	top: 370px;
+}
+
+/* main divs */
+
+#mainPageContent1 {
+	box-shadow: 0px 0px 5px black;
+	background-color: #041530;
+	color: white;
+	width: 100%;
+	min-width: 600px;
+	max-width: 900px;
+	position: absolute; 
+	top: 450px;
+}
+
+p {
+	padding: 40px;
+	color: #ADB3CD;
+}
+
+.statsSmallHeader {
+	color: white;
+	font-size: 24px;
+	padding: 10px;
+}
+
+#musicExperience {
+	width: 100%;
+	padding: 20px;
+}
+
+td {
+	border-spacing: 15px;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	color: #cfb53b;
+	font-size: 32px;
+}
+
+/* bottom of page */
+
+#followUs {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 32px;
+	text-align: center;	
+	vertical-align: middle;
+	color: white;
+}
+
+.socialMediaIcon {
+	width: 40px;
+	height: 40px;
+	padding: 0px 10px 20px 10px;
+}

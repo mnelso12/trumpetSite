@@ -1,0 +1,147 @@
+body {
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	min-width: 600px;
+	max-width: 900px;
+	background-color: #041530;
+}
+
+/* colors */
+.navy-text {
+	color: #041530;
+}
+
+.white-text {
+	/*color: #f9fafc;*/
+	color: white;
+}
+
+
+/* background image stuff */
+.fixed-bg {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	width:100%;
+	min-width: 600px;
+	max-width: 900px;
+	background-repeat: no-repeat;
+}
+
+.trumpetsInDomePic {
+	background-image: url(../media/Trumpets.jpg);
+	height: 400px;
+	min-height: 120px;
+}
+
+.trumpetTreePic {
+	top: 1000px; 
+	height: 300px; 
+	background-image: url('../media/trumpetTree2-edited.jpg');
+}
+
+#notreDameTrumpetsTitle {
+	text-shadow: 1px 1px 8px #041530;
+	font-size:58px;
+	position: absolute;
+	min-width: 600px;
+	max-width: 900px;
+	display: table;
+	text-align:center;
+	width: 100%;
+	top: 280px;
+} 
+
+#carryingTheMelody {
+	color: #cfb53b;
+	text-shadow: 2px 2px 20px #041530;
+	font-size: 24px;
+	display: table;
+	position: absolute;
+	min-width: 600px;
+	max-width: 900px;
+	text-align: center;
+	font-style: italic;
+	width: 100%;
+	top: 370px;
+}
+
+/* main divs */
+
+#mainPageContent1 {
+	box-shadow: 0px 0px 5px black;
+	background-color: #041530;
+	color: white;
+	width: 100%;
+	min-width: 600px;
+	max-width: 900px;
+	width: 100%;
+	position: absolute; 
+	top: 450px;
+	height: 550px;
+}
+
+#mainPageContent1 td {
+	padding: 40px;
+	color: #ADB3CD;
+	width: 50%;
+}
+
+#mainPageContent2 {
+	box-shadow: 0px 0px 5px black;
+	background-color: #041530;
+	color: white;
+	width: 100%;
+	min-width: 600px;
+	max-width: 900px;
+	position: absolute; 
+	top: 1300px;
+}
+
+.trumpetTreeText {
+	text-shadow: 1px 1px 3px black;
+	font-size:24px;
+	width: 50%;
+	margin: 20px 40px 40px 40px;
+	vertical-align: middle;
+	color: white;
+}
+
+#joinUsMailTo {
+	text-shadow: 1px 1px 3px black;
+	background-color: #002649;
+	opacity: .9;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	float: right;
+	margin-right: 50px;
+}
+
+#followUs {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 32px;
+	text-align: center;	
+	vertical-align: middle;
+	color: white;
+}
+
+.socialMediaIcon {
+	width: 40px;
+	height: 40px;
+	padding: 0px 10px 20px 10px;
+}

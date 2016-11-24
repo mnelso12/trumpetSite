@@ -1,0 +1,82 @@
+/* footer */
+.copyright {
+	width: 100%;
+	margin: 0px;
+	padding: 20px 0px 10px 0px;
+	font-size: 16px;
+	font-weight:400;
+	text-align: center;	
+	vertical-align: middle;
+	color: white;
+}
+
+#ndBands {
+	width: 100%;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	font-size: 12px;
+	font-weight:400;
+	text-align: center;	
+	vertical-align: middle;
+	color: gray;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+
+/* Nav Bar */
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+li {
+	float: left;
+}
+
+li .nav-icon a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px 15px 0px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+ul li .nav-icon a:hover {
+	background-color: transparent;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+li img {
+	display: block;
+	text-align: center;
+	padding: 10px 15px 10px 20px;
+}
+
+ul li a:hover {
+	background-color: #1d2c44;
+}
+
+ul .active{
+	background-color: #364359;
+}
