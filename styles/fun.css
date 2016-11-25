@@ -28,7 +28,7 @@ body {
 }
 
 .trumpetsInDomePic {
-	background-image: url(../media/lauraHayride.jpg);
+	background-image: url(../media/trumpetFootballGroupCropped.jpg);
 	height: 400px;
 	min-height: 120px;
 }
@@ -99,6 +99,72 @@ td {
 	color: #cfb53b;
 	font-size: 32px;
 }
+
+/* fun activities */
+
+#activities {
+	margin: 40px;
+}
+
+.box {  
+	width:100%;
+	height:400px;
+	box-shadow: 1px 1px 3px black;
+	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;
+}
+
+#trumpetFootball {
+	background-image: url(../media/trumpetFootball2cropped.JPG);
+}
+
+#incredibles {
+	background-image: url(../media/incredibles.jpg);
+}
+
+#sorinPregame {
+	background-image: url(../media/pregame2015.jpg);
+}
+
+#warrenDunes {
+	background-image: url(../media/dunes2015.jpg);
+}
+
+.overlay {  
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,.75);
+	/*padding:45px 0 66px 0;*/
+	opacity:0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.box:hover .overlay {
+	opacity:1;
+}
+
+.overlayTitle {  
+	width: 100%;
+	margin-top: 0px;
+	padding: 40px;
+	font-weight:400;
+	color:rgba(255,255,255,.85);
+	font-size:32px;
+	text-align: left;
+}
+
+.overlayText {  
+	margin: 40px;
+	width: 66%;
+	font-weight:400;
+	color:rgba(255,255,255,.85);
+	font-size:16px;
+	text-align: left;
+}
+
+
 
 /* bottom of page */
 
