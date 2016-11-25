@@ -73,6 +73,22 @@ body {
 	top: 450px;
 }
 
+#pieChartWrapper {
+	text-align: center;
+}
+
+#pieChartDiv {
+	width: 100%;
+	display: inline-block;
+	background-color: #1d2c44;
+	padding-bottom: 40px;
+}
+
+#collegiateTravelsDiv {
+	width: 100%;
+	background-color: #1d2c44;
+}
+
 p {
 	padding: 40px;
 	color: #ADB3CD;
@@ -94,10 +110,23 @@ td {
 	text-align: center;
 }
 
+.gold-text {
+	color: #cfb53b;
+}
+
+.mediumHeading {
+	text-align: center;
+	color: gray;
+	padding: 10px;
+	font-size: 24px;
+	text-shadow: 1px 1px 5px black;
+}
+
 .title {
 	text-align: center;
 	color: #cfb53b;
 	font-size: 32px;
+	text-shadow: 1px 1px 5px black;
 }
 
 /* bottom of page */

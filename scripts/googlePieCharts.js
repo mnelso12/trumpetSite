@@ -20,7 +20,7 @@ function drawChart() {
 		is3D: true,
 		backgroundColor: 'transparent',
 		fontSize: '24',
-		fontName: 'Lato',
+		fontName: 'Roboto',
 		slices: {
 		0: { color: '#ff88ff' },
 		1: { color: 'transparent' }
@@ -40,7 +40,7 @@ function drawChart() {
 		is3D: true,
 		backgroundColor: 'transparent',
 		fontSize: '24',
-		fontName: 'Lato',
+		fontName: 'Roboto',
 		slices: {
 		0: { color: '#fdc116' },
 		1: { color: 'transparent' }
@@ -54,7 +54,7 @@ function drawChart() {
 		is3D: true,
 		backgroundColor: 'transparent',
 		fontSize: '24',
-		fontName: 'Lato',
+		fontName: 'Roboto',
 		slices: {
 		0: { color: '#009959' },
 		1: { color: 'transparent' }
@@ -80,7 +80,7 @@ function drawChart() {
 		is3D: true,
 		backgroundColor: 'transparent',
 		fontSize: '24',
-		fontName: 'Lato',
+		fontName: 'Roboto',
 		slices: {
 		0: { color: '#9966ff' },
 		1: { color: 'transparent' }
@@ -100,7 +100,7 @@ function drawChart() {
 		is3D: true,
 		backgroundColor: 'transparent',
 		fontSize: '24',
-		fontName: 'Lato',
+		fontName: 'Roboto',
 		slices: {
 		0: { color: '#ff0066' },
 		1: { color: 'transparent' }
@@ -114,7 +114,7 @@ function drawChart() {
 		is3D: true,
 		backgroundColor: 'transparent',
 		fontSize: '24',
-		fontName: 'Lato',
+		fontName: 'Roboto',
 		slices: {
 		0: { color: '#00ccff' },
 		1: { color: 'transparent' }

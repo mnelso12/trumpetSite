@@ -122,9 +122,17 @@ body {
 	padding: 10px;
 }
 
+.person h3 {
+	color: gray;
+	font-size: 14px;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
 .person:nth-child(even) {
 	background-color: #1d2c44;
-	color: #ADB3CD;
+	color: #adb3cd;
 	font-size: 18px;
 }
 
