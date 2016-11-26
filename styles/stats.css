@@ -100,6 +100,17 @@ p {
 	padding: 10px;
 }
 
+.statsSmallerHeader {
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+	width: 67%;
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	color: #ADB3CD;
+}
+
 #musicExperience {
 	width: 100%;
 	padding: 20px;
@@ -117,8 +128,18 @@ td {
 .mediumHeading {
 	text-align: center;
 	color: gray;
-	padding: 10px;
-	font-size: 24px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	font-size: 28px;
+	text-shadow: 1px 1px 5px black;
+}
+
+.smallHeading {
+	text-align: center;
+	color: gray;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px; /* same as p */
 	text-shadow: 1px 1px 5px black;
 }
 

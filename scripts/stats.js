@@ -7,12 +7,12 @@ var margin = {top: 275, right: 275, bottom: 275, left: 275},
 function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14}; 
 
 var hue = d3.scale.ordinal()
-	.range(["#660033", "#00FFFF", "#009959"]);
+	.range(["#cfb53b", "#4f5b6e", "#153004"]);
 
 var luminance = d3.scale.sqrt()
 	.domain([0, 1e6])
 	.clamp(true)
-	.range([90, 20]);
+	.range([90, 0]);
 
 var svg = d3.select("#pieChartDiv").append("svg")
 	.attr("width", margin.left + margin.right)
@@ -55,7 +55,7 @@ function computeTextRotation(d) {
 }
 
 function mouseOverArc(d) {
-	d3.select(this).attr("stroke","purple")
+	d3.select(this).attr("stroke","#041530")
 
 	tooltip.html(format_description(d));
 	return tooltip.transition()
