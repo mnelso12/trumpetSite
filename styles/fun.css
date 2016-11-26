@@ -1,5 +1,9 @@
 body {
 	background-color: black;
+	/*background-image: url("../media/lunchTable.jpg");
+	background-size: cover;
+	background-repeat: repeat-x;
+	*/
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 	padding: 0px;

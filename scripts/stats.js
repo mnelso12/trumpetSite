@@ -36,7 +36,7 @@ var tooltip = d3.select("#pieChartDiv")
 	.attr("id", "tooltip")
 	.style("position", "absolute")
 	.style("z-index", "10")
-	.style("opacity", 1);
+	.style("opacity", 0);
 
 function format_number(x) {
 	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

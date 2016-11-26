@@ -46,8 +46,8 @@ body {
 
 .trumpetTreePic {
 	top: 1000px; 
-	height: 300px; 
-	background-image: url('../media/trumpetTree2-edited.jpg');
+	height: 400px; 
+	background-image: url('../media/grotto2.jpg');
 }
 
 #notreDameTrumpetsTitle {
@@ -105,7 +105,7 @@ body {
 	min-width: 600px;
 	max-width: 900px;
 	position: absolute; 
-	top: 1300px;
+	top: 1400px;
 }
 
 .trumpetTreeText {

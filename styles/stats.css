@@ -75,13 +75,24 @@ body {
 
 #pieChartWrapper {
 	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../media/academic.jpg");
 }
 
 #pieChartDiv {
 	width: 100%;
 	display: inline-block;
-	background-color: #1d2c44;
+	/*background-color: #1d2c44;*/
 	padding-bottom: 40px;
+}
+
+#navyOverlay {
+	width: 100%;
+	height: 780px;
+	background-color: #1d2c44;
+	opacity: .5;
+	position:absolute;
 }
 
 #collegiateTravelsDiv {
@@ -95,8 +106,8 @@ p {
 }
 
 .statsSmallHeader {
-	color: white;
-	font-size: 24px;
+	color: gray;
+	font-size: 22px;
 	padding: 10px;
 }
 
