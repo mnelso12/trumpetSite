@@ -119,17 +119,26 @@ body {
 
 #joinUsMailTo {
 	text-shadow: 1px 1px 3px black;
-	background-color: #002649;
-	opacity: .9;
+	box-shadow: 1px 1px 1px #adb3cd;
+	background-color: #041530;
 	margin-top: 10px;
 	border-radius: 5px;
 	padding: 10px 10px 10px 10px;
-	color: white;
 	font-size: 24px;
 	text-align: center;
 	float: right;
 	margin-right: 50px;
 }
+
+#joinUsMailTo a {
+	color: #ADB3CD;
+	text-decoration: none;
+}
+
+#joinUsMailTo a:hover {
+	color: lightgray;
+}
+
 
 #followUs {
 	margin: 0px;
