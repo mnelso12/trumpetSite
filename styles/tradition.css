@@ -28,7 +28,8 @@ body {
 }
 
 .trumpetsInDomePic {
-	background-image: url(../media/sunsetTrumpetHuddle.jpg);
+	/*background-image: url(../media/sunsetTrumpetHuddle.jpg);*/
+	background-image: url(../media/fridayIrishWarmupCropped.jpg);
 	height: 400px;
 	min-height: 120px;
 }
@@ -98,6 +99,17 @@ td {
 	text-align: center;
 	color: #cfb53b;
 	font-size: 32px;
+}
+
+#traditions {
+	margin-left: 40px;
+}
+
+.image {
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px black;
+	margin-top: 40px;
+	margin-right: 40px;
 }
 
 /* bottom of page */
