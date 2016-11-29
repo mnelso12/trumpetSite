@@ -14,7 +14,7 @@ var luminance = d3.scale.sqrt()
 	.clamp(true)
 	.range([90, 0]);
 
-var svg = d3.select("#pieChartDiv").append("svg")
+var svg = d3.select("#overlay").append("svg")
 	.attr("width", margin.left + margin.right)
 	.attr("height", margin.top + margin.bottom)
 	.append("g")

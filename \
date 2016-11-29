@@ -118,7 +118,6 @@ body {
 #pieChartWrapper {
 	margin: 0px;
 	padding: 0px;
-	text-align: center;
 }
 
 #pieChartDiv {  
@@ -126,36 +125,26 @@ body {
 	height:780px;
 	pieChartDiv-shadow: 1px 1px 3px black;
 	background-size:cover;
-	display: inline-block;
-	padding-bottom: 40px;
 	overflow:hidden;
 }
 
 .academic {
 	background-image: url("../media/academic.jpg");
-	background-position: center;
-	background-size: cover;
 }
+
 
 #overlay {  
 	width: 100%;
-	height: 780px;
+	height: 100%;
 	background:rgba(0,0,0,.75);
-	position: absolute;
-	margin: 0px;
-	padding: 0px;
-	opacity:.5;
+	/*padding:45px 0 66px 0;*/
+	opacity:.6;
 	-webkit-transition: opacity .25s ease;
 	-moz-transition: opacity .25s ease;
 }
 
-.overlayText {  
-	margin: 40px;
-	opacity: 1;
-}
-
 #pieChartDiv:hover #overlay {
-	opacity:.8;
+	/*opacity:.8;*/
 }
 
 #collegiateTravelsDiv {
