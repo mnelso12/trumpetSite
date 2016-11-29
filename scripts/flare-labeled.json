@@ -6,119 +6,85 @@
 			"name": "Saint Mary's",
 			"description": "cluster",
 			"children": [
-			{"name": "Accounting", "description": "AgglomerativeCluster", "size": 3938},
-			{"name": "Applied Health Science", "description": "CommunityStructure", "size": 3812},
-			{"name": "Anthropology", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Art Practice", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Art Theory & Criticsm", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Biochemistry", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Biology", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Business Administration", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Chemistry", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Classics", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Communication", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Dance", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Earth Science", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Economics", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "Engineering", "description": "HierarchicalCluster", "size": 6714},
-			{"name": "English", "description": "MergeEdge", "size": 743},
-			{"name": "Environmental Science", "description": "MergeEdge", "size": 743},
-			{"name": "French", "description": "MergeEdge", "size": 743},
-			{"name": "Global and Regional Studies", "description": "MergeEdge", "size": 743},
-			{"name": "Greek", "description": "MergeEdge", "size": 743},
-			{"name": "History", "description": "MergeEdge", "size": 743},
-			{"name": "History and Art", "description": "MergeEdge", "size": 743},
-			{"name": "Integral Program", "description": "MergeEdge", "size": 743},
-			{"name": "Justice, Community, and Leadership", "description": "MergeEdge", "size": 743},
-			{"name": "Kinesiology", "description": "MergeEdge", "size": 743},
-			{"name": "Latin", "description": "MergeEdge", "size": 743},
-			{"name": "Leadership & Organizational Studies", "description": "MergeEdge", "size": 743},
-			{"name": "LEAP", "description": "MergeEdge", "size": 743},
-			{"name": "Math", "description": "MergeEdge", "size": 743},
-			{"name": "Music", "description": "MergeEdge", "size": 743},
-			{"name": "Physics", "description": "MergeEdge", "size": 743},
-			{"name": "Politics", "description": "MergeEdge", "size": 743},
-			{"name": "Psychology", "description": "MergeEdge", "size": 743},
-			{"name": "Sociology", "description": "MergeEdge", "size": 743},
-			{"name": "Spanish", "description": "MergeEdge", "size": 743},
-			{"name": "Technical Theatre & Design", "description": "MergeEdge", "size": 743},
-			{"name": "Theatre Performance & Theatre Studies", "description": "MergeEdge", "size": 743},
-			{"name": "Theology & Religious Studies", "description": "MergeEdge", "size": 743},
-			{"name": "Women's and Gender Studies", "description": "MergeEdge", "size": 743}
+			{"name": "Business", "description": "Saint Mary's College", "size": 1},
+			{"name": "Elementary Education", "description": "Saint Mary's College", "size": 1},
+			{"name": "English Literature", "description": "Saint Mary's College", "size": 1},
+			{"name": "Nursing", "description": "Saint Mary's College", "size": 1},
+			{"name": "Political Science", "description": "Saint Mary's College", "size": 1},
+			{"name": "Psychology", "description": "Saint Mary's College", "size": 1},
+			{"name": "Undecided", "description": "Saint Mary's College", "size": 1}
 			]
 		},
 		{
 			"name": "Notre Dame",
-			"description": "animate",
+			"description": "Du Lac",
 			"children": [
 			{
 				"name": "Arts & Letters",
-				"description": "interpolate",
+				"description": "College of Arts & Letters",
 				"children": [
-				{"name": "Studio Art", "description": "ArrayInterpolator", "size": 1983},
-				{"name": "Asian Studies", "description": "ColorInterpolator", "size": 2047},
-				{"name": "Chinese", "description": "DateInterpolator", "size": 1375},
-				{"name": "Pre-Health", "description": "Interpolator", "size": 8746},
-				{"name": "English", "description": "MatrixInterpolator", "size": 2202},
-				{"name": "Spanish", "description": "NumberInterpolator", "size": 1382},
-				{"name": "Theology", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "History", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Gender Studies", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Psychology", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Philosophy", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Political Science", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Neuroscience", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Music", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "International Economics", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Economics", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "American Studies", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Anthrology", "description": "ObjectInterpolator", "size": 1629}
+				{"name": "Studio Art", "description": "College of Arts Notre Dame Letters", "size": 1},
+				{"name": "Asian Studies", "description": "College of Arts Notre Dame Letters", "size": 1},
+				{"name": "Chinese", "description": "College of Arts Notre Dame Letters", "size": 1},
+				{"name": "Pre-Health", "description": "College of Arts Notre Dame Letters", "size": 8},
+				{"name": "English", "description": "College of Arts Notre Dame Letters", "size": 1},
+				{"name": "Spanish", "description": "College of Arts Notre Dame Letters", "size": 2},
+				{"name": "Theology", "description": "College of Arts Notre Dame Letters", "size": 1},
+				{"name": "History", "description": "College of Arts Notre Dame Letters", "size": 3},
+				{"name": "Psychology", "description": "College of Arts Notre Dame Letters", "size": 5},
+				{"name": "Philosophy", "description": "College of Arts Notre Dame Letters", "size": 1},
+				{"name": "Political Science", "description": "College of Arts Notre Dame Letters", "size": 6},
+				{"name": "Neuroscience", "description": "College of Arts Notre Dame Letters", "size": 2},
+				{"name": "Music", "description": "College of Arts Notre Dame Letters", "size": 2},
+				{"name": "International Economics", "description": "College of Arts Notre Dame Letters", "size": 3},
+				{"name": "Economics", "description": "College of Arts Notre Dame Letters", "size": 2},
+				{"name": "American Studies", "description": "College of Arts Notre Dame Letters", "size": 2}
 				]
 			},
 			{
 				"name": "Engineering",
-				"description": "interpolate",
+				"description": "College of Engineering",
 				"children": [
-				{"name": "Mechanical", "description": "ArrayInterpolator", "size": 1983},
-				{"name": "Chemical", "description": "ColorInterpolator", "size": 2047},
-				{"name": "Computer Science", "description": "DateInterpolator", "size": 1375},
-				{"name": "Computer Engineering", "description": "Interpolator", "size": 8746},
-				{"name": "Civil", "description": "MatrixInterpolator", "size": 2202},
-				{"name": "Electrical", "description": "NumberInterpolator", "size": 1382},
-				{"name": "Environmental", "description": "ObjectInterpolator", "size": 1629}
+				{"name": "Mechanical", "description": "College of Engineering", "size": 4},
+				{"name": "Chemical", "description": "College of Engineering", "size": 4},
+				{"name": "Computer Science", "description": "College of Engineering", "size": 6},
+				{"name": "Computer Engineering", "description": "College of Engineering", "size": 3},
+				{"name": "Civil", "description": "College of Engineering", "size": 4},
+				{"name": "Electrical", "description": "College of Engineering", "size": 2},
+				{"name": "Environmental", "description": "College of Engineering", "size": 3}
 				]
 			},
 			{
 				"name": "Science",
-				"description": "interpolate",
+				"description": "College of Science",
 				"children": [
-				{"name": "ACMS", "description": "ArrayInterpolator", "size": 1983},
-				{"name": "Biology", "description": "ColorInterpolator", "size": 2047},
-				{"name": "Chemistry", "description": "DateInterpolator", "size": 1375},
-				{"name": "Environmental Science", "description": "Interpolator", "size": 8746},
-				{"name": "Math", "description": "MatrixInterpolator", "size": 2202},
-				{"name": "Neuroscience", "description": "NumberInterpolator", "size": 1382},
-				{"name": "Physics", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Pre-Med", "description": "ObjectInterpolator", "size": 1629},
-				{"name": "Statistics", "description": "ObjectInterpolator", "size": 1629}
+				{"name": "ACMS", "description": "College of Science", "size": 2},
+				{"name": "Biology", "description": "College of Science", "size": 3},
+				{"name": "Chemistry", "description": "College of Science", "size": 1},
+				{"name": "Environmental Science", "description": "College of Science", "size": 2},
+				{"name": "Math", "description": "College of Science", "size": 1},
+				{"name": "Neuroscience", "description": "College of Science", "size": 2},
+				{"name": "Physics", "description": "College of Science", "size": 1},
+				{"name": "Pre-Med", "description": "College of Science", "size": 3},
+				{"name": "Statistics", "description": "College of Science", "size": 1}
 				]
 			},
 			{
-				"name": "Business",
-				"description": "interpolate",
+				"name": "Mendoza",
+				"description": "College of Business",
 				"children": [
-				{"name": "Accountancy", "description": "ArrayInterpolator", "size": 1983},
-				{"name": "Finance", "description": "ColorInterpolator", "size": 2047},
-				{"name": "IT Management", "description": "DateInterpolator", "size": 1375},
-				{"name": "Management Consulting", "description": "Interpolator", "size": 8746},
-				{"name": "Marketing", "description": "MatrixInterpolator", "size": 2202}
+				{"name": "Accountancy", "description": "Mendoza College of Business", "size": 3},
+				{"name": "Finance", "description": "Mendoza College of Business", "size": 1},
+				{"name": "IT Management", "description": "Mendoza College of Business", "size": 1},
+				{"name": "Management Consulting", "description": "Mendoza College of Business", "size": 1},
+				{"name": "Marketing", "description": "Mendoza College of Business", "size": 1}
 				]
 			},
 			{
 				"name": "Architecture",
-				"description": "interpolate",
+				"description": "School of Architecture",
 				"children": [
-				{"name": "Architecture", "description": "ArrayInterpolator", "size": 1983}
+				{"name": "Architecture", "description": "School of Architecture", "size": 2}
 				]
 			}
 			]
@@ -127,15 +93,11 @@
 			"name": "Holy Cross",
 			"description": "data",
 			"children": [
-				{"name": "Business", "description": "Converters", "size": 721},
-				{"name": "Communications", "description": "DelimitedTextConverter", "size": 4294},
-				{"name": "Education", "description": "GraphMLConverter", "size": 9800},
-				{"name": "English Literature", "description": "IDataConverter", "size": 1314},
-				{"name": "History", "description": "IDataConverter", "size": 1314},
-				{"name": "Liberal Studies", "description": "IDataConverter", "size": 1314},
-				{"name": "Psychology", "description": "IDataConverter", "size": 1314},
-				{"name": "Theology", "description": "IDataConverter", "size": 1314},
-				{"name": "Visual Arts", "description": "IDataConverter", "size": 1314}
+				{"name": "Business", "description": "Converters", "size": 2},
+				{"name": "Communications", "description": "DelimitedTextConverter", "size": 2},
+				{"name": "Graphic Design", "description": "IDataConverter", "size": 1},
+				{"name": "Theology", "description": "IDataConverter", "size": 1},
+				{"name": "Computer Science", "description": "IDataConverter", "size": 1}
 				]
 		}
 	]

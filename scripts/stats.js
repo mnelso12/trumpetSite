@@ -18,6 +18,7 @@ var svg = d3.select("#pieChartDiv").append("svg")
 	.attr("width", margin.left + margin.right)
 	.attr("height", margin.top + margin.bottom)
 	.append("g")
+	.style("color", "red")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var partition = d3.layout.partition()
@@ -31,12 +32,17 @@ var arc = d3.svg.arc()
 	.outerRadius(function(d) { return radius / 3 * (d.depth + 1) - 1; });
 
 //Tooltip description
-var tooltip = d3.select("#pieChartDiv")
+var tooltip = d3.select("body")
 	.append("div")
 	.attr("id", "tooltip")
+	.style("background-color", "white")
+	.style("border-radius", "5px")
+	.style("padding", "5px")
 	.style("position", "absolute")
+	.style("top", "0px")
+	.style("left", "0px")
 	.style("z-index", "10")
-	.style("opacity", 0);
+	.style("opacity", 1);
 
 function format_number(x) {
 	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

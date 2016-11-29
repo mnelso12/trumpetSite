@@ -1,0 +1,104 @@
+{
+	"name": "flare",
+		"description": "flare",
+		"children": [
+		{
+			"name": "Saint Mary's",
+			"description": "cluster",
+			"children": [
+			{"name": "Business", "description": "AgglomerativeCluster", "size": 1},
+			{"name": "Elementary Education", "description": "MergeEdge", "size": 1},
+			{"name": "English Literature", "description": "MergeEdge", "size": 1},
+			{"name": "Nursing", "description": "MergeEdge", "size": 1},
+			{"name": "Political Science", "description": "MergeEdge", "size": 1},
+			{"name": "Psychology", "description": "MergeEdge", "size": 1},
+			{"name": "Undecided", "description": "MergeEdge", "size": 1}
+			]
+		},
+		{
+			"name": "Notre Dame",
+			"description": "animate",
+			"children": [
+			{
+				"name": "Arts & Letters",
+				"description": "interpolate",
+				"children": [
+				{"name": "Studio Art", "description": "ArrayInterpolator", "size": 1},
+				{"name": "Asian Studies", "description": "ColorInterpolator", "size": 1},
+				{"name": "Chinese", "description": "DateInterpolator", "size": 1},
+				{"name": "Pre-Health", "description": "Interpolator", "size": 8},
+				{"name": "English", "description": "MatrixInterpolator", "size": 1},
+				{"name": "Spanish", "description": "NumberInterpolator", "size": 2},
+				{"name": "Theology", "description": "ObjectInterpolator", "size": 1},
+				{"name": "History", "description": "ObjectInterpolator", "size": 3},
+				{"name": "Psychology", "description": "ObjectInterpolator", "size": 5},
+				{"name": "Philosophy", "description": "ObjectInterpolator", "size": 1},
+				{"name": "Political Science", "description": "ObjectInterpolator", "size": 6},
+				{"name": "Neuroscience", "description": "ObjectInterpolator", "size": 2},
+				{"name": "Music", "description": "ObjectInterpolator", "size": 2},
+				{"name": "International Economics", "description": "ObjectInterpolator", "size": 3},
+				{"name": "Economics", "description": "ObjectInterpolator", "size": 2},
+				{"name": "American Studies", "description": "ObjectInterpolator", "size": 2}
+				]
+			},
+			{
+				"name": "Engineering",
+				"description": "interpolate",
+				"children": [
+				{"name": "Mechanical", "description": "ArrayInterpolator", "size": 4},
+				{"name": "Chemical", "description": "ColorInterpolator", "size": 4},
+				{"name": "Computer Science", "description": "DateInterpolator", "size": 6},
+				{"name": "Computer Engineering", "description": "Interpolator", "size": 3},
+				{"name": "Civil", "description": "MatrixInterpolator", "size": 4},
+				{"name": "Electrical", "description": "NumberInterpolator", "size": 2},
+				{"name": "Environmental", "description": "ObjectInterpolator", "size": 3}
+				]
+			},
+			{
+				"name": "Science",
+				"description": "interpolate",
+				"children": [
+				{"name": "ACMS", "description": "ArrayInterpolator", "size": 2},
+				{"name": "Biology", "description": "ColorInterpolator", "size": 3},
+				{"name": "Chemistry", "description": "DateInterpolator", "size": 1},
+				{"name": "Environmental Science", "description": "Interpolator", "size": 2},
+				{"name": "Math", "description": "MatrixInterpolator", "size": 1},
+				{"name": "Neuroscience", "description": "NumberInterpolator", "size": 2},
+				{"name": "Physics", "description": "ObjectInterpolator", "size": 1},
+				{"name": "Pre-Med", "description": "ObjectInterpolator", "size": 3},
+				{"name": "Statistics", "description": "ObjectInterpolator", "size": 1}
+				]
+			},
+			{
+				"name": "Business",
+				"description": "interpolate",
+				"children": [
+				{"name": "Accountancy", "description": "ArrayInterpolator", "size": 3},
+				{"name": "Finance", "description": "ColorInterpolator", "size": 1},
+				{"name": "IT Management", "description": "DateInterpolator", "size": 1},
+				{"name": "Management Consulting", "description": "Interpolator", "size": 1},
+				{"name": "Marketing", "description": "MatrixInterpolator", "size": 1}
+				]
+			},
+			{
+				"name": "Architecture",
+				"description": "interpolate",
+				"children": [
+				{"name": "Architecture", "description": "ArrayInterpolator", "size": 2}
+				]
+			}
+			]
+		},
+		{
+			"name": "Holy Cross",
+			"description": "data",
+			"children": [
+				{"name": "Business", "description": "Converters", "size": 2},
+				{"name": "Communications", "description": "DelimitedTextConverter", "size": 2},
+				{"name": "Graphic Design", "description": "IDataConverter", "size": 1},
+				{"name": "Theology", "description": "IDataConverter", "size": 1},
+				{"name": "Computer Science", "description": "IDataConverter", "size": 1}
+				]
+		}
+	]
+}
