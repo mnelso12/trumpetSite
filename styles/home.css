@@ -109,9 +109,13 @@ body {
 }
 
 .trumpetTreeText {
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 5px black;
+	background-color: rgba(4,21,48,0.4);
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
 	font-size:24px;
-	width: 50%;
+	max-width: 50%;
 	margin: 20px 40px 40px 40px;
 	vertical-align: middle;
 	color: white;
@@ -119,8 +123,6 @@ body {
 
 #joinUsMailTo {
 	text-shadow: 1px 1px 3px black;
-	box-shadow: 1px 1px 1px #adb3cd;
-	background-color: #041530;
 	margin-top: 10px;
 	border-radius: 5px;
 	padding: 10px 10px 10px 10px;
@@ -131,12 +133,17 @@ body {
 }
 
 #joinUsMailTo a {
-	color: #ADB3CD;
+	background-color: rgba(4,21,48,0.4);
 	text-decoration: none;
+	color: #cfb53b;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	padding: 10px 10px 10px 10px;
 }
 
 #joinUsMailTo a:hover {
-	color: lightgray;
+	background-color: rgba(4,21,48,0.8);
 }
 
 
