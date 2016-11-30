@@ -171,6 +171,16 @@ td {
 	text-align: left;
 }
 
+.overlayText {  
+	width: 67%;
+	margin-top: 0px;
+	padding: 40px;
+	font-weight:400;
+	color:rgba(255,255,255,.85);
+	font-size:16px;
+	text-align: left;
+}
+
 
 
 /* bottom of page */
