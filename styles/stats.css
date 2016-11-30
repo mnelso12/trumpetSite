@@ -72,6 +72,23 @@ body {
 	position: absolute; 
 	top: 450px;
 }
+
+#accomplishments {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#pieChartTrumpet {
+	position: absolute;
+	float: center;
+	top: 62%;
+	left: 42%;
+	z-index: 0;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+	-webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+	transform: rotate(-10deg);
+}
+
 /*
 #pieChartWrapper {
 	text-align: center;
@@ -222,6 +239,14 @@ td {
 	color: #cfb53b;
 	font-size: 32px;
 	text-shadow: 1px 1px 5px black;
+}
+
+.blue-shadow {
+	text-shadow: 1px 1px 5px #041530;
+}
+
+.small-bottom-space {
+	margin-bottom: 20px;
 }
 
 /* bottom of page */

@@ -72,6 +72,31 @@ p {
 	color: #cfb53b;
 }
 
+.lightBlue {
+	color: #ADB3CD;
+}
+
+#proTip {
+	text-align: center;
+	display: table-cell;
+	font-size: 22px;
+	vertical-align: middle;
+}
+
+#proTipBox {
+	float:left; 
+	width: 150px; 
+	height: 150px; 
+	margin-right: 40px; 
+	margin-left: 40px; 
+	margin-bottom: 20px; 
+	margin-top: 0px; 
+	background-color: #1d2c44;
+	border-radius: 5px;
+	display: table;
+	padding: 20px;
+}
+
 .image {
 	margin-left: 40px;
 	margin-top: 40px;
