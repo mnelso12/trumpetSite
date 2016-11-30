@@ -77,6 +77,11 @@ body {
 p {
 	padding: 40px;
 	color: #ADB3CD;
+	background-color: yellow;
+}
+
+.wrappingP {
+	color: #ADB3CD;
 }
 
 .statsSmallHeader {
@@ -105,11 +110,27 @@ td {
 	margin-left: 40px;
 }
 
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+#tree {
+}
+
+#sunset {
+}
+
 .image {
 	border-radius: 5px;
 	box-shadow: 2px 2px 3px black;
 	margin-top: 40px;
 	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
 }
 
 /* bottom of page */

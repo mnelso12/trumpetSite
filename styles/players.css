@@ -63,6 +63,25 @@ body {
 	top: 370px;
 }
 
+p {
+	color: gray;
+	margin: 40px;
+}
+
+.gold {
+	color: #cfb53b;
+}
+
+.image {
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.right {
+	float: right;
+}
+
 /* main divs */
 
 #mainPageContent1 {
@@ -76,11 +95,19 @@ body {
 	top: 450px;
 }
 
+#becomeATrumpetShortcut {
+	margin-top: 40px;
+	text-align: center;
+	color: gray; 
+}
+
 
 /* roster table */
 
 #roster {
-	padding: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
 	width: 100%;
 }
 
@@ -109,7 +136,16 @@ body {
 	font-size: 32;
 	text-align: center;
 	padding-top: 20px;
+	padding-bottom: 0px;
 	color: #ADB3CD;
+}
+
+.smallTitle {
+	width: 100%;
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 40px;
+	color: #cfb53b;
 }
 
 .empty {
