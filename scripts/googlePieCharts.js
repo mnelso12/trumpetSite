@@ -3,14 +3,14 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
 	var marchingData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
-			['Marched in High School',     64],
-			['Did Not', 20]
+			['Marched in High School', 48],
+			['Did Not', 31]
 			]);
 
 	var otherClubsData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
-			['Involved in Another Club',     83],
-			['Did Not', 1]
+			['Involved in Another Club', 65],
+			['Did Not', 14]
 			]);
 
 	var otherClubsOptions = {
@@ -29,8 +29,8 @@ function drawChart() {
 
 	var otherInstrumentData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
-			['Play Another Instrument',     34],
-			['Did Not', 50]
+			['Play Another Instrument', 58],
+			['Did Not', 21]
 			]);
 
 	var otherInstrumentOptions = {
@@ -63,14 +63,14 @@ function drawChart() {
 	
 	var serviceData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
-			['Service',     74],
-			['Did Not', 10]
+			['Service', 60],
+			['Did Not', 19]
 			]);
 
 	var ensemblesData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
-			['In Another Ensemble', 63],
-			['Did Not', 21]
+			['In Another Ensemble', 64],
+			['Did Not', 15]
 			]);
 
 	var ensemblesOptions = {
@@ -89,8 +89,8 @@ function drawChart() {
 
 	var leadershipData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
-			['Leadership',     34],
-			['Did Not', 50]
+			['Leadership',     31],
+			['Did Not', 48]
 			]);
 
 	var leadershipOptions = {
