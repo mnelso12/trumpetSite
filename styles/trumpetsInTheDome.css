@@ -74,7 +74,10 @@ body {
 }
 
 p {
-	padding: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 0px;
 	color: #ADB3CD;
 }
 
@@ -94,10 +97,11 @@ td {
 	text-align: center;
 }
 
-.title {
+.title a{
 	text-align: center;
+	margin: 20px;
 	color: #cfb53b;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 /* bottom of page */

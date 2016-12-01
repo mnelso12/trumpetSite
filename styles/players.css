@@ -76,6 +76,10 @@ p {
 	color: #ADB3CD;
 }
 
+.white {
+	color: white;
+}
+
 #proTip {
 	text-align: center;
 	display: table-cell;
