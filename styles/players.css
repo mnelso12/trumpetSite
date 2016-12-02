@@ -111,6 +111,10 @@ p {
 	float: right;
 }
 
+#tree {
+	border-radius: 5px;
+}
+
 /* main divs */
 
 #mainPageContent1 {

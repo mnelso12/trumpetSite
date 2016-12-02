@@ -1,6 +1,8 @@
 google.charts.load("current", {packages:["corechart"]});
 google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
+	
+	// data! change this with new years survey info
 	var marchingData = google.visualization.arrayToDataTable([
 			['Task', 'Hours per Day'],
 			['Marched in High School', 48],
@@ -13,13 +15,40 @@ function drawChart() {
 			['Did Not', 14]
 			]);
 
+	var otherInstrumentData = google.visualization.arrayToDataTable([
+			['Task', 'Hours per Day'],
+			['Plays Another Instrument', 58],
+			['Did Not', 21]
+			]);
+
+	var serviceData = google.visualization.arrayToDataTable([
+			['Task', 'Hours per Day'],
+			['Service', 60],
+			['Did Not', 19]
+			]);
+
+	var ensemblesData = google.visualization.arrayToDataTable([
+			['Task', 'Hours per Day'],
+			['In Another Ensemble', 64],
+			['Did Not', 15]
+			]);
+
+	var leadershipData = google.visualization.arrayToDataTable([
+			['Task', 'Hours per Day'],
+			['Leadership Position in Band',     31],
+			['Did Not', 48]
+			]);
+
+
+	// the options control pie chart color and stuff
 	var otherClubsOptions = {
 		chartArea: {'width': '100%', 'height': '100%'},
 	               'legend': {'position': 'bottom'},
 		title: 'Marching Experience',
+
 		is3D: true,
 		backgroundColor: 'transparent',
-		fontSize: '24',
+		fontSize: '16',
 		fontName: 'Roboto',
 		slices: {
 		0: { color: '#ff88ff' },
@@ -27,19 +56,13 @@ function drawChart() {
 		}
 	};
 
-	var otherInstrumentData = google.visualization.arrayToDataTable([
-			['Task', 'Hours per Day'],
-			['Play Another Instrument', 58],
-			['Did Not', 21]
-			]);
-
 	var otherInstrumentOptions = {
 		chartArea: {'width': '100%', 'height': '100%'},
 	               'legend': {'position': 'bottom'},
 		title: 'Marching Experience',
 		is3D: true,
 		backgroundColor: 'transparent',
-		fontSize: '24',
+		fontSize: '16',
 		fontName: 'Roboto',
 		slices: {
 		0: { color: '#fdc116' },
@@ -53,7 +76,7 @@ function drawChart() {
 		title: 'Marching Experience',
 		is3D: true,
 		backgroundColor: 'transparent',
-		fontSize: '24',
+		fontSize: '16',
 		fontName: 'Roboto',
 		slices: {
 		0: { color: '#009959' },
@@ -61,25 +84,13 @@ function drawChart() {
 		}
 	};
 	
-	var serviceData = google.visualization.arrayToDataTable([
-			['Task', 'Hours per Day'],
-			['Service', 60],
-			['Did Not', 19]
-			]);
-
-	var ensemblesData = google.visualization.arrayToDataTable([
-			['Task', 'Hours per Day'],
-			['In Another Ensemble', 64],
-			['Did Not', 15]
-			]);
-
 	var ensemblesOptions = {
 		chartArea: {'width': '100%', 'height': '100%'},
 	               'legend': {'position': 'bottom'},
 		title: 'Marching Experience',
 		is3D: true,
 		backgroundColor: 'transparent',
-		fontSize: '24',
+		fontSize: '16',
 		fontName: 'Roboto',
 		slices: {
 		0: { color: '#9966ff' },
@@ -87,19 +98,13 @@ function drawChart() {
 		}
 	};
 
-	var leadershipData = google.visualization.arrayToDataTable([
-			['Task', 'Hours per Day'],
-			['Leadership',     31],
-			['Did Not', 48]
-			]);
-
 	var leadershipOptions = {
 		chartArea: {'width': '100%', 'height': '100%'},
 	               'legend': {'position': 'bottom'},
 		title: 'Marching Experience',
 		is3D: true,
 		backgroundColor: 'transparent',
-		fontSize: '24',
+		fontSize: '16',
 		fontName: 'Roboto',
 		slices: {
 		0: { color: '#ff0066' },
@@ -113,7 +118,7 @@ function drawChart() {
 		title: 'Marching Experience',
 		is3D: true,
 		backgroundColor: 'transparent',
-		fontSize: '24',
+		fontSize: '16',
 		fontName: 'Roboto',
 		slices: {
 		0: { color: '#00ccff' },
