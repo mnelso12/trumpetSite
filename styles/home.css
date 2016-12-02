@@ -121,6 +121,12 @@ body {
 	color: white;
 }
 
+#trumpetHornAngle {
+	margin: 40px;
+	height: 200px;
+	float: left;
+}
+
 #joinUsMailTo {
 	text-shadow: 1px 1px 3px black;
 	margin-top: 10px;
