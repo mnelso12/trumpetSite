@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
 	});
 
 	$("#traditionR").on('click', function() {
-		window.open('https://www.youtube.com/watch?v=9vd5X48svmg', '_blank');
+		window.open('https://youtu.be/CfnLywgKUuM', '_blank');
 	});
 
 	$("#traditionO").on('click', function() {
